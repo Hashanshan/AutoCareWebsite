@@ -1,0 +1,150 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+
+    padding:1%;
+    width: 80%;
+    margin:0 auto;
+    
+}
+.text-center{
+    text-align: center;
+    
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.tbl-full{
+    width:100%;
+}
+.tbl-full{
+    width:100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding:1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: rgb(119, 255, 126);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #4efa37;
+}
+.btn-danger{
+    background-color: #fd1e43;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #be0000;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+
+.menu{
+    border-bottom:1px solid grey ;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding:1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #160e0e;
+}
+.menu ul li a :hover{
+    color: #ff4757;
+}
+
+.main-content{
+    background-color: #f1f2f6;
+    padding:3% 0;
+    
+    
+}
+.col-4{
+    width:18%;
+    background-color:white;
+    margin:1%;
+    padding :2%;
+    float:left;
+}
+
+.footer{
+    background-color: #1d1414;
+    color: white;
+    
+}
+
+
+.login{
+    width: 30%;
+    border: 1px solid grey;
+    margin: 9% auto;
+    padding: 2%;
+    background-image: none;
+    background-color: white;
+}
+.bgimg{
+    background-image: url(../images/bg.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+    
+}
+.logo{
+    width: 25%;
+    float: left;  
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
